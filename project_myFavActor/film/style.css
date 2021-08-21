@@ -1,0 +1,118 @@
+html{
+  height: 100%
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  padding: 2% 10%;
+}
+
+main{
+  padding-top: 3%;
+  height: 100%;
+}
+
+#logo{
+  background-color: grey;
+  height: 3.750em;
+  width: 11%;
+  margin-bottom: 0.938em;
+}
+
+.searchbox{
+  text-align: center;
+  width: 45%;
+  height: 2.188em;
+  font-size: 1em;
+}
+
+button{
+  width: 6%;
+  height: 2.500em;
+  font-size: 1em;
+  margin-left: 8px;
+}
+
+.search{
+  display: flex;
+}
+
+.stampbox{
+  height: 115px;
+  width: 35%;
+  background-color: grey;
+  position: absolute;
+  margin-top: 2%;
+  right: 10%;
+  top: 0;
+}
+
+.film_top{
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+}
+
+
+.poster{
+/*
+  height: 70%;
+  width: 35%;
+*/
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.info {
+  height: 69%;
+  width: 67%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
+}
+
+.basic_info {
+  position: relative;
+  height: 50%;
+  width: 100%;
+  background-color: aqua;
+}
+
+.actor {
+  position: relative;
+  height: 44%;
+  width: 100%;
+  background-color: tomato;
+  margin-top: 4%;
+}
+
+.film_bottom{
+  height: 100%;
+  margin-top: 2.5%;
+}
+
+.story{
+  height: 30%;
+  width: 100%;
+  background-color: grey;
+  margin-bottom: 2.5%;
+}
+
+.photos{
+  height: 40%;
+  width: 100%;
+  background-color: grey;
+  margin-bottom: 2.5%;
+}
+
+.comments{
+
+  height: 44%;
+  width: 100%;
+  background-color: grey;
+  margin-bottom: 5%;
+
+}
+

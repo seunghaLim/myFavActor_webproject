@@ -1,0 +1,190 @@
+html{
+  height: 100vh;
+}
+
+body{
+  margin: 0%;
+  height: 100vh;
+  padding: 2% 10%;
+}
+
+main{
+  height: 100vh;
+  padding-top: 2%;
+}
+
+#logo{
+  background-color: grey;
+  height: 3.750em;
+  width: 11%;
+  margin-bottom: 0.938em;
+}
+
+.searchbox{
+  text-align: center;
+  width: 45%;
+  height: 2.188em;
+  font-size: 1em;
+    font-family: 'NanumSquare', sans-serif;
+    color: dimgrey;
+    border-radius: 30px;
+    outline: none;
+    border-style:none;
+    border-bottom:solid 5px #95D904;
+    border-collapse:collapse;
+    box-shadow: 0.1px 5px 10px 0.1px lightgrey;
+}
+
+button{
+  width: 4%;
+  font-size: 1em;
+  vertical-align: bottom;
+  background-color: #95D904;
+  border: 0px;
+  border-radius: 30px;
+  margin-left: -4%;
+}
+
+.btn_img{
+  height: 55%;
+  width: 57%;
+  display: block;
+  margin: auto;
+}
+
+
+.search{
+  display: flex;
+}
+/*
+.stampbox{
+    height: 115px;
+    width: 35%;
+    position: absolute;
+    margin-top: 2%;
+    right: 10%;
+    top: 0;
+    box-shadow: 0.1px 5px 5px 0.1px lightgrey;
+    border-radius: 10px;
+    font-family: 'NanumSquare', sans-serif;
+    text-align: right;
+    line-height: 10px;
+    font-size: 1.5em;
+}
+*/
+
+select{
+    position: relative;
+    left: 92%;
+    font-size: 1em;
+    color: white;
+    height: 5%;
+    width: 7%;
+    margin-bottom: 1.9%;
+    padding-left: 1.7%;
+    padding-bottom: auto;
+    font-family: 'NanumSquare', sans-serif;
+    color: dimgrey;
+    border-radius: 25px;
+    outline: none;
+    border: 0px;
+    background-color: #95D904;
+
+}
+
+.list1{
+    position: relative;
+    height: 40%;
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+    margin-bottom: 6%;
+}
+
+.list2, .list3{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+    margin: 6% 0%;
+}
+
+
+ul{
+  display: block;
+  list-style-type: disc;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+li{
+    position: relative;
+    height: 294px;
+    width: 226px;
+    display: inline-block;
+    margin: 0% 0.5%;
+    z-index: 2;
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+li img{
+    height: auto;
+    width: 93%;
+}
+
+
+.arrow1{
+    position: absolute;
+    height: auto;
+    width: 5em;
+    bottom: 43%;
+    right: -1%;
+    z-index: 3;
+}
+
+.arrow2, .arrow3 {
+    position: absolute;
+    height: auto;
+    width: 5em;
+    bottom: 35%;
+    right: -1%;
+    z-index: 3;
+}
+
+.greenleaf{
+
+    height: auto;
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+h4{
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 3%;
+    margin-top: 0%;
+    font-family: 'NanumSquare', sans-serif;
+    background: #95D904;
+    padding: 9px 18px;
+    color: white;
+    font-family: 'NanumSquare', sans-serif;
+    border-radius: 35px;
+    box-shadow: 0.1px 1px 10px 0.1px lightgrey;
+    display: inline-block;
+
+}
+
+.comment_section{
+    position: relative;
+    background-color: grey;
+    height: 30%;
+    width: 100%;
+}
+
+
+
