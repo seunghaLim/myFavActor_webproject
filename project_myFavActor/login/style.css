@@ -1,41 +1,39 @@
 html{
     height: 100%
-  }
+}
 
-  body{
+body{
     height: 100%;
     margin: 0;
     padding: 2% 10%;
-  }
+}
 
-  main{
+main{
     padding-top: 3%;
     height: 100%;
-  }
+}
 
-  #logo{
+#logo{
     background-color: grey;
     height: 3.750em;
     width: 11%;
     margin-bottom: 0.938em;
-  }
+}
 
-  .wrapper{
-      position: absolute;
-      left: 50%;
-      top: 40%;
-      transform: translate(-50%, -40%);
-      text-align: center;
-      width: 100%;
-
-  }
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+    width: 100%;
+}
 
 .wrapper h4{
     font-family: 'NanumSquare', sans-serif;
     color: dimgrey;
     font-size: 1.8em;
 }
-
 
 input{
     text-align: center;
@@ -49,9 +47,9 @@ input{
     border-style:none;
     border-bottom:solid 5px #95D904;
     border-collapse:collapse;
-  }
+}
 
-  button{
+button{
     font-size: 1.3em;
     width: 25%;
     line-height: 45px;
@@ -65,7 +63,7 @@ input{
     outline: none;
     border: 0px;
     box-shadow: 0.1px 5px 10px 0.1px lightgrey;
-  }
+}
 
 
 
