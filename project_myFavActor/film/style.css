@@ -1,5 +1,5 @@
 html{
-  height: 100%
+  height: 100%;
 }
 
 body{
@@ -25,14 +25,33 @@ main{
   width: 45%;
   height: 2.188em;
   font-size: 1em;
+    font-family: 'NanumSquare', sans-serif;
+    color: dimgrey;
+    border-radius: 30px;
+    outline: none;
+    border-style:none;
+    border-bottom:solid 5px #95D904;
+    border-collapse:collapse;
+    box-shadow: 0.1px 5px 10px 0.1px lightgrey;
 }
 
 button{
-  width: 6%;
-  height: 2.500em;
+  width: 4%;
   font-size: 1em;
-  margin-left: 8px;
+  vertical-align: bottom;
+  background-color: #95D904;
+  border: 0px;
+  border-radius: 30px;
+  margin-left: -4%;
 }
+
+.btn_img{
+  height: 55%;
+  width: 57%;
+  display: block;
+  margin: auto;
+}
+
 
 .search{
   display: flex;
@@ -49,62 +68,89 @@ button{
 }
 
 .film_top{
+  position: relative;
   width: 100%;
   height: 100%;
-  background-color: aquamarine;
 }
 
 
 .poster{
-/*
-  height: 70%;
-  width: 35%;
-*/
+  position: absolute;
+  left: 0;
+  height: auto;
+  width: 30%;
   display: inline-block;
   vertical-align: top;
+}
 
+img{
+    width: 100%;
+    height: auto;
 }
 
 .info {
-  height: 69%;
-  width: 67%;
   display: inline-block;
   vertical-align: top;
   margin-left: 2%;
 }
 
 .basic_info {
-  position: relative;
-  height: 50%;
-  width: 100%;
-  background-color: aqua;
+  position: absolute;
+  right: 0;
+  height: 35%;
+  width: 66%;
+ background-color: aqua;
+}
+
+.basic_info h2{
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 3rem;
+}
+
+.basic_info h3{
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 1.2rem;
+    color: dimgrey;
+    display: inline;
+}
+
+.basic_info h4{
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    display: inline;
+    padding-bottom: 4%;
 }
 
 .actor {
-  position: relative;
-  height: 44%;
-  width: 100%;
+  position: absolute;
+  right: 0;
+  height: 27.5%;
+  width: 66%;
+  top: 35%;
   background-color: tomato;
   margin-top: 4%;
 }
 
 .film_bottom{
+  position: relative;
+  top: -20%;
   height: 100%;
-  margin-top: 2.5%;
+
 }
 
 .story{
   height: 30%;
   width: 100%;
   background-color: grey;
-  margin-bottom: 2.5%;
+  margin-bottom: 4%;
 }
 
 .photos{
   height: 40%;
   width: 100%;
   background-color: grey;
-  margin-bottom: 2.5%;
+  margin-bottom: 4%;
 }
 
 .comments{
@@ -112,7 +158,7 @@ button{
   height: 44%;
   width: 100%;
   background-color: grey;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 
 }
 

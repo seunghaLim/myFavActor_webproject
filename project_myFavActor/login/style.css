@@ -21,7 +21,7 @@ html{
   }
 
   .wrapper{
-    position: absolute;
+      position: absolute;
       left: 50%;
       top: 40%;
       transform: translate(-50%, -40%);
@@ -30,25 +30,42 @@ html{
 
   }
 
-  input{
+.wrapper h4{
+    font-family: 'NanumSquare', sans-serif;
+    color: dimgrey;
+    font-size: 1.8em;
+}
+
+
+input{
     text-align: center;
     font-size: 1.5em;
     width: 25%;
     line-height: 45px;
     padding: 0.2% 0%;
-    margin: 0.5% 0%
-
+    margin: 0.7% 0%;
+    color: dimgrey;
+    outline: none;
+    border-style:none;
+    border-bottom:solid 5px #95D904;
+    border-collapse:collapse;
   }
 
   button{
     font-size: 1.3em;
     width: 25%;
     line-height: 45px;
-    margin: 2% 0%;
-    padding: 0.2% 0%;
+    margin: 3% 0%;
+    padding: 0.3% 0%;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 700;
+    background-color: #95D904;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: 0px;
+    box-shadow: 0.1px 5px 10px 0.1px lightgrey;
   }
 
-  h4{
-    font-size: 1.5em;
-  }
+
 
