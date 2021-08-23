@@ -102,24 +102,27 @@ img{
     background-color: aqua;
 }
 
-.basic_info h2{
+#title{
     font-family: 'NanumSquare', sans-serif;
     font-size: 3rem;
+    font-weight: 700;
 }
 
-.basic_info h3{
-    font-family: 'NanumSquare', sans-serif;
-    font-size: 1.2rem;
+#division{
     color: dimgrey;
-    display: inline;
+    font-weight: 700;
 }
 
-.basic_info h4{
+#content{
+    color: black;
+    font-weight: 500;
+}
+
+.basic_info span{
+    display: inline-block;
+    margin-bottom: 1.2%;
     font-family: 'NanumSquare', sans-serif;
     font-size: 1.2rem;
-    color: black;
-    display: inline;
-    padding-bottom: 4%;
 }
 
 .actor {
