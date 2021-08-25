@@ -30,7 +30,7 @@ main{
     border-radius: 30px;
     outline: none;
     border-style:none;
-    border-bottom:solid 5px #95D904;
+    border-bottom:solid 4px #95D904;
     border-collapse:collapse;
     box-shadow: 0.1px 5px 10px 0.1px lightgrey;
 }
@@ -46,8 +46,8 @@ button{
 }
 
 .btn_img{
-    height: 55%;
-    width: 57%;
+    height: 35%;
+    width: 35%;
     display: block;
     margin: auto;
 }

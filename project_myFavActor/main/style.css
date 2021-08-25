@@ -42,7 +42,7 @@ body{
 
 button{
     width: 10%;
-    height: 86%;
+    height: 79%;
     font-size: 1.3em;
     vertical-align: bottom;
     background-color: #95D904;
@@ -52,8 +52,8 @@ button{
 }
 
 .btn_img{
-    height: 55%;
-    width: 60%;
+    height: 35%;
+    width: 36%;
     display: block;
     margin: auto;
 }
