@@ -1,5 +1,5 @@
 html{
-    height: 100%
+    background-color: darkgreen;
 }
 
 body{
@@ -18,42 +18,46 @@ body{
 .wrapper{
     position: absolute;
     left: 50%;
-    top: 40%;
-    transform: translate(-50%, -40%);
-    text-align: center;
+    top: 33%;
+    transform: translate(-50%, -33%);
     width: 45%;
     height: 10%;
 }
 
+.search{
+    display: flex;
+}
+
 .searchbox{
     text-align: center;
-    width: 80%;
-    height: 50px;
+    width: 88%;
+    height: 55px;
     font-size: 1.8em;
     font-family: 'NanumSquare', sans-serif;
     color: dimgrey;
-    border-radius: 30px;
+    border-radius: 5px;
     outline: none;
     border-style:none;
-    border-bottom:solid 5px #95D904;
     border-collapse:collapse;
-    box-shadow: 0.1px 5px 10px 0.1px lightgrey;
+    margin-inline-start: 60px;
 }
 
+
 button{
-    width: 10%;
-    height: 79%;
+    width: 95px;
+    height: 48px;
     font-size: 1.3em;
-    vertical-align: bottom;
-    background-color: #95D904;
+    background-color: darkgreen;
     border: 0px;
-    border-radius: 30px;
-    margin-left: -7%;
+    border-radius: 5px;
+    position: relative;
+    top: 4px;
+    right: 91px;
 }
 
 .btn_img{
-    height: 35%;
-    width: 36%;
+    height: 34%;
+    width: 20%;
     display: block;
     margin: auto;
 }
@@ -66,16 +70,23 @@ button{
 }
 
 a{
-    background: #95D904;
     padding: 4% 7%;
     color: white;
     font-family: 'NanumSquare', sans-serif;
     border-radius: 35px;
     margin: 0% 3%;
-    box-shadow: 0.1px 1px 10px 0.1px lightgrey;
     text-decoration: none;
 }
 
+.main_cp, .cp{
+    color: white;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+.main_cp{
+    font-size: 1.8rem;
+    margin-bottom: 11%
+}
 
 
 

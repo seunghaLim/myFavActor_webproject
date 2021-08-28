@@ -44,7 +44,7 @@ input{
     color: dimgrey;
     outline: none;
     border-style:none;
-    border-bottom:solid 5px #95D904;
+    border-bottom:solid 5px darkgreen;
     border-collapse:collapse;
 }
 
@@ -56,25 +56,15 @@ input{
     font-weight: 700;
 }
 
-button{
-    position: absolute;
-    bottom: 53%;
-    line-height: 45px;
-    width: 4%;
-    background-color: #95D904;
-    color: white;
-    border-radius: 30px;
-    outline: none;
-    border: 0px;
-    box-shadow: 0.1px 3px 8px 0.1px lightgrey;
-    font-family: 'NanumSquare', sans-serif;
-    font-weight: 600;
-}
-
 .next{
-    right: 25%;
+    text-decoration: none;
+    color: white;
+    margin: 3%;
 }
 
 .before{
-    left: 25%;
+    text-decoration: none;
+    color: dimgrey;
+    margin: 3%;
 }
+
