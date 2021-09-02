@@ -13,11 +13,14 @@ main{
 }
 
 #logo{
-    background-color: grey;
-    height: 3.750em;
-    width: 11%;
-    margin-bottom: 0.938em;
+    height: 60px;
+    width: 60px;
 }
+
+#logo img{
+    height: 50px;
+}
+
 
 .wrapper {
     position: absolute;
@@ -44,7 +47,7 @@ input{
     color: dimgrey;
     outline: none;
     border-style:none;
-    border-bottom:solid 5px darkgreen;
+    border-bottom:solid 5px #5842c0;
     border-collapse:collapse;
 
 }

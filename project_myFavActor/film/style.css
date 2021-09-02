@@ -13,9 +13,11 @@ body{
 header{
     padding: 0% 10%;
     padding-top: 3%;
-    background-color: darkgreen;
     height: 110px;
-
+    background: -webkit-linear-gradient(100deg, rgb(157, 92, 212), rgb(136, 253,255));
+    background: -o-linear-gradient(100deg, rgb(157, 92, 212), rgb(136, 253, 255));
+    background: -moz-linear-gradient(100deg, rgb(157, 92, 212), rgb(136, 253, 255));
+    background: linear-gradient(14deg, rgb(157, 92, 212), rgb(136, 253, 255));
 }
 
 main{
@@ -24,10 +26,13 @@ main{
 }
 
 #logo{
-    background-color: white;
-    height: 3.750em;
-    width: 11%;
+    height: 60px;
+    width: 60px;
     margin-bottom: 2.5%;
+}
+
+#logo img{
+    height: 60px;
 }
 
 .searchbox{
@@ -45,13 +50,13 @@ main{
 }
 
 button{
-    width: 70px;
+    width: 64px;
     height: 35px;
     position: relative;
     top: 3px;
     right: 24px;
     font-size: 1em;
-    background-color: darkgreen;
+    background-color: #5842c0;
     border: 0px;
     border-radius: 5px;
     margin-left: -4%;
@@ -59,7 +64,7 @@ button{
 
 .btn_img{
     height: 35%;
-    width: 22%;
+    width: 21%;
     display: block;
     margin: auto;
 }
@@ -73,7 +78,7 @@ button{
     height: 9.8%;
     width: 30%;
     position: absolute;
-    margin-top: 3%;
+    margin-top: 3.8%;
     right: 10%;
     top: 0;
     padding: 2% 2%;
@@ -94,7 +99,7 @@ button{
     margin: 3%;
     position: relative;
     top: 35%;
-    left: -48%;
+    right: 45%;
     float: right;
 }
 
@@ -115,7 +120,7 @@ button{
     vertical-align: top;
 }
 
-img{
+.poster img{
     width: 100%;
     height: auto;
 }
@@ -163,11 +168,11 @@ img{
 .actor {
     position: absolute;
     right: 0;
-    height: 27.5%;
+    height: 17%;
     width: 66%;
     top: 35%;
     background-color: grey;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 .film_bottom{

@@ -5,7 +5,7 @@ html{
 body{
     height: 100%;
     margin: 0;
-    padding: 2% 10%;
+    padding: 3% 10%;
 }
 
 main{
@@ -14,17 +14,19 @@ main{
 }
 
 #logo{
-    background-color: grey;
-    height: 3.750em;
-    width: 11%;
-    margin-bottom: 0.938em;
+    height: 60px;
+    width: 60px;
+}
+
+#logo img{
+    height: 50px;
 }
 
 .wrapper{
     position: absolute;
     left: 50%;
-    top: 40%;
-    transform: translate(-50%, -40%);
+    top: 45%;
+    transform: translate(-50%, -45%);
     text-align: center;
     width: 100%;
 }
@@ -32,20 +34,20 @@ main{
 .wrapper h4{
     font-family: 'NanumSquare', sans-serif;
     color: dimgrey;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 input{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 25%;
-    line-height: 45px;
+    line-height: 40px;
     padding: 0.2% 0%;
     margin: 0.7% 0%;
     color: dimgrey;
     outline: none;
     border-style:none;
-    border-bottom:solid 5px #95D904;
+    border-bottom:solid 5px #5842c0;
     border-collapse:collapse;
 }
 
@@ -57,7 +59,10 @@ button{
     padding: 0.3% 0%;
     font-family: 'NanumSquare', sans-serif;
     font-weight: 700;
-    background-color: #95D904;
+    background: -webkit-linear-gradient(14deg, rgb(157, 92, 212), rgb(136, 253,255));
+    background: -o-linear-gradient(14deg, rgb(157, 92, 212), rgb(136, 253, 255));
+    background: -moz-linear-gradient(14deg, rgb(157, 92, 212), rgb(136, 253, 255));
+    background: linear-gradient(14deg, rgb(157, 92, 212), rgb(136, 253, 255));
     color: white;
     border-radius: 30px;
     outline: none;
